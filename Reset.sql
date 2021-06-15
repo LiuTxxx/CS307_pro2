@@ -1,0 +1,15 @@
+truncate course_to_major;
+truncate major_to_department;
+truncate instructor cascade ;
+truncate coursesectionclass cascade ;
+truncate semester cascade ;
+truncate coursesection cascade ;
+truncate table student cascade ;
+truncate course cascade ;
+truncate major cascade ;
+truncate department cascade ;
+alter sequence coursesection_section_id_seq restart ;
+alter sequence coursesectionclass_class_id_seq restart ;
+alter sequence department_department_id_seq restart ;
+alter sequence major_major_id_seq restart ;
+alter sequence semester_semester_id_seq restart ;
